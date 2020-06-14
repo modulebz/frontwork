@@ -1,0 +1,14 @@
+<IfModule mod_rewrite.c>
+RewriteEngine on
+Options +FollowSymlinks
+
+
+#RewriteRule ^(.*)example.js$  example.js [L]
+#RewriteRule ^(.*)example.css$ example.css [L]
+RewriteRule ^(.*)pics(.*)$ pics$2 [L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^.*$ index.html [L]
+
+
+</ifModule>

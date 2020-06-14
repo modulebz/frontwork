@@ -1,0 +1,52 @@
+{
+  "name": "@modulebz/npm_template",
+  "version": "0.0.1",
+  "author": "viktor gvozdikov",
+  "description": "Шаблон",
+  "scripts": {
+    "tsc": "tsc --jsx react --declaration react/index.ts ",
+    "tsc2": "tsc --jsx react --declaration class/index.ts ",
+    "gulp": "gulp react",
+    "all": "npm-run-all tsc tsc2 gulp"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.4.5",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/plugin-syntax-dynamic-import": "^7.2.0",
+    "@babel/plugin-transform-arrow-functions": "^7.8.3",
+    "@babel/plugin-transform-react-jsx": "*",
+    "@babel/preset-env": "^7.8.4",
+    "@babel/preset-es2015": "^7.0.0-beta.53",
+    "@babel/preset-typescript": "^7.6.0",
+    "@types/node": "^12.12.11",
+    "@types/react": "^16.9.5",
+    "@types/react-dom": "^16.9.1",
+    "acorn": "^6.0.5",
+    "babel": "^6.23.0",
+    "babel-core": "^6.0.20",
+    "babel-loader": "^6.0.1",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-es2016": "^6.16.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-react-app": "*",
+    "babel-preset-stage-0": "^6.24.1",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-changed": "^4.0.2",
+    "gulp-stylus": "^2.7.0",
+    "npm-run-all": "^4.1.5",
+    "react": "16.8.3",
+    "react-dom": "16.8.3",
+    "react-native": "^0.61.5",
+    "webpack-stream": "^5.2.1"
+  },
+  "dependencies": {
+    "@modulebz/jsreact": "github:viktorgvozdikov/jsreact",
+    "@modulebz/stylus": "github:viktorgvozdikov/stylus",
+    "react-router": "6.0.0-alpha.2",
+    "react-router-dom": "6.0.0-alpha.2",
+    "redux": "^4.0.5"
+  }
+}

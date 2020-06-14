@@ -1,0 +1,4 @@
+{
+  "plugins": ["@babel/plugin-proposal-class-properties","@babel/plugin-transform-arrow-functions","@babel/plugin-transform-react-jsx","@babel/plugin-syntax-dynamic-import"],
+  "presets": ["@babel/preset-typescript", "@babel/react"]
+}

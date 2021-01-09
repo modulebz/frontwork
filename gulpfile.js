@@ -51,6 +51,10 @@ gulp.task('webpack', function(){
     return gulp.src('dist/example.js')
         .pipe(webpack({
             mode:'production',
+            node: {
+                fs: 'empty'
+            },
+            //"browser": { "fs": false, "path": false, "os": false},
             output: {
                 filename: 'example.js',
                 publicPath: 'http://localhost/npm/frontwork/examples/',

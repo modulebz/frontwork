@@ -45,8 +45,12 @@
   "dependencies": {
     "@modulebz/jsreact": "github:viktorgvozdikov/jsreact",
     "@modulebz/stylus": "github:viktorgvozdikov/stylus",
+    "prismjs": "^1.23.0",
+    "pug": "^3.0.0",
     "react-router": "6.0.0-alpha.2",
     "react-router-dom": "6.0.0-alpha.2",
-    "redux": "^4.0.5"
+    "react-simple-code-editor": "^0.11.0",
+    "redux": "^4.0.5",
+    "stylus": "^0.54.8"
   }
 }
